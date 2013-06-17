@@ -26,8 +26,7 @@ Click on the first test, (top left) and follow the instructions and fill in the 
   
 - *Play*: Experimentation is a powerful learning tool. Don't be afraid to try stuff out, and run it to see what happens.
 - *Run the Test*: It is valuable to see what the results are. All Koans are designed to produce something even before they are filled in.
-- *Debug*: Set some break point and walk thru the code. It's a great way to get details. ({"Ctrl+R, Ctrl+T"}) will run in debug mode.
-- *Do Them with a Friend*: Learn is more fun and less fustrating when you have a friend with you.
-- *Retrospect after each koan* True insight comes from reflecting on the answer, not just obtaining it. [Answer 1 question from this list](https://github.com/approvals/ApprovalTests.java.Koans/blob/master/Questions.md)
+- *Do Them with a Friend*: Learn is more fun and less frustrating when you have a friend with you.
+- *Retrospect after each koan* True insight comes from reflecting on the answer, not just obtaining it. [Answer 1 question from this list](https://github.com/gjb1002/texttest.koans/blob/master/Questions.md)
 
 

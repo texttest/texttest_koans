@@ -1,17 +1,23 @@
 # Select this test and hit the Run button to start
+# TextTest is testing the "echo" program on the command line here
 RunningTest
 
 # After you run it, hit Save and then rerun it
 SavingTheResults
 
-# To make this pass you need to alter the options
+# To make this pass you need to alter the options file
 TheOptionsAreTheCommandLineArguments
 
+# Check the environment file
 # Hint: double-click the red "stdout" file to see a graphical difference
 EnvironmentVariables
+
 # Hint: double-click the red "stdout" file to see a graphical difference
 MultipleEnvironmentVariables
+
+# The parent suite is the top line (echo...). It also has environment settings.
 # Hint: double-click the red "stdout" file to see a graphical difference
 EnvironmentVariablesAreInheritedFromParentSuite
+
 # Hint: double-click the red "stdout" file to see a graphical difference
 EnvironmentVariablesOverrideThoseFromParentSuite

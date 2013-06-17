@@ -1,0 +1,22 @@
+# We aren't testing "echo" any more. Now we are testing a custom-written search/replace script.
+# Run this test and see how this script works, fill in the "options" blanks to get the expected result.
+RunToDiscoverUsage
+
+# The __blank__ is in config.lesson2
+IncludeDataFileInSandbox
+
+# Hint: Look at the previous test
+FilterInconsistentLine
+
+# The script asks the user if it is OK to commit before updating the file.
+# We need to provide this input to it, via TextTest.
+# Hint: Look in stdin.lesson2
+AnswerOnStandardInput
+
+# We want to check that the file has the correct contents after editing it.
+# 
+VerifyingModifiedFiles
+
+# Hint: Look at run_dependent_text documentation at
+# http://www.texttest.org/index.php?page=documentation_trunk&n=run_dependent_text
+AdvancedFiltering

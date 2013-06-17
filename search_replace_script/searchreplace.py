@@ -25,7 +25,7 @@ def searchAndReplace(toFind, toReplace, fileName):
             os.system("diff " + filePath + " " + newFileName)
             print "OK to commit?"
             answer = sys.stdin.readline().strip()
-            if answer == "y":
+            if answer in [ "y", "yes", "Y", "Yes", "YES" ]:
                 os.remove(filePath)
                 os.rename(newFileName, filePath)
             else:
