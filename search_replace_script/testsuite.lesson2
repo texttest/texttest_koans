@@ -1,16 +1,17 @@
 # We aren't testing "echo" any more. Now we are testing a custom-written search/replace script.
-# Run this test and see how this script works, fill in the "options" blanks to get the expected result.
+# 
 RunToDiscoverUsage
 
-# The __blank__ is in config.lesson2
+# The "config" file is how you tell TextTest about your application. Configuration is usually a matter of 
+# editing this file. Ordinarily you have one per application under test, but you may provide them per test as here.
 IncludeDataFileInSandbox
 
 # Hint: Look at the previous test
 FilterInconsistentLine
 
 # The script asks the user if it is OK to commit before updating the file.
-# We need to provide this input to it, via TextTest.
-# Hint: Look in stdin.lesson2
+# We need to provide this input to its standard input, via TextTest.
+# 
 AnswerOnStandardInput
 
 # We want to check that the file has the correct contents after editing it.
