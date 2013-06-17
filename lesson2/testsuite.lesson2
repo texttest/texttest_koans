@@ -1,0 +1,17 @@
+RunToDiscoverUsage
+
+# The __blank__ is in config.lesson2
+IncludeDataFileInSandbox
+
+# Hint: Look at the previous test
+FilterInconsistentLine
+
+# Hint: Look in stdin.lesson2
+AnswerOnStandardInput
+
+# Hint: Look in stdin.lesson2
+VerifyingModifiedFiles
+
+# Hint: Look at run_dependent_text documentation at
+# http://www.texttest.org/index.php?page=documentation_trunk&n=run_dependent_text
+AdvancedFiltering
