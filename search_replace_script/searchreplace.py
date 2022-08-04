@@ -11,10 +11,10 @@ def localtime(format= "%d%b%H:%M:%S", seconds=None):
 
 def searchAndReplace(toFind, toReplace, fileName):
     filePath = os.path.abspath(fileName)
-    print "searchreplace.py running at", localtime()
-    print "Replacing '" + toFind + "' with '" + toReplace + "'"
+    print("searchreplace.py running at", localtime())
+    print("Replacing '" + toFind + "' with '" + toReplace + "'")
     if os.path.isfile(filePath):
-        print "Replacing in", filePath
+        print("Replacing in", filePath)
         newFileName = filePath + ".new"
         newFile = open(newFileName, "w")
         for line in open(filePath):
@@ -23,14 +23,14 @@ def searchAndReplace(toFind, toReplace, fileName):
         if not cmp(filePath, newFileName, 0):
             sys.stdout.flush()
             os.system("diff " + filePath + " " + newFileName)
-            print "OK to commit?"
+            print("OK to commit?")
             answer = sys.stdin.readline().strip()
             if answer in [ "y", "yes", "Y", "Yes", "YES" ]:
                 os.remove(filePath)
                 os.rename(newFileName, filePath)
             else:
                 os.remove(newFileName)
-                print "Not editing the file."
+                print("Not editing the file.")
         else:
             os.remove(newFileName) 
     else:
@@ -38,7 +38,7 @@ def searchAndReplace(toFind, toReplace, fileName):
 
 
 if len(sys.argv) < 4 or "____" in sys.argv:
-    print "Usage : searchreplace.py <toFind> <toReplace> <files>"
+    print("Usage : searchreplace.py <toFind> <toReplace> <files>")
 else:
     toFind = sys.argv[1]
     toReplace = sys.argv[2].replace("\\n", "\n")

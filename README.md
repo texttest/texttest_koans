@@ -11,14 +11,10 @@ By: Geoff Bache, with help from Llewellyn Falco
 TextTest is a tool for automating black box testing of command-line programs.
 These Koans are an interactive and fun way to be introduced to and learn how to test with TextTest.
 
-**Current Lessons**
- 
-- Lesson1
-
 **Getting Started**  
 Download the zip, expand it
 [install TextTest](http://texttest.org/index.php?page=documentation_trunk&n=install_texttest)
-and then run texttest -a koans from the expanded directory.
+and then run texttest from the expanded directory.
 
 Click on the first test, (top left) and follow the instructions and fill in the blanks
 
